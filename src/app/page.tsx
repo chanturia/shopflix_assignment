@@ -27,7 +27,7 @@ export default function Home() {
                     </ButtonPrimary>
                 </div>
                 <div
-                    className="self-stretch px-3 py-2.5 bg-gray-50 rounded-lg border border border border justify-between items-start gap-2 inline-flex">
+                    className="w-full px-3 py-2.5 bg-gray-50 rounded-lg border border border border justify-between items-start gap-2 inline-flex">
                     <div className="justify-start items-center gap-1 flex">
                         <span className="text-stone-500 text-[14px] font-normal leading-tight">Αγορά από</span>
                         <span

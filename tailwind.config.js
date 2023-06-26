@@ -7,7 +7,7 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            'body': ['Roboto'],
+            'roboto': ['Roboto', 'sans-serif'],
         },
         extend: {
             colors: {

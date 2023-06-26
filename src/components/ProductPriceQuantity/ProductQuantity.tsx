@@ -1,13 +1,9 @@
-import {useState} from "react";
+import { useState } from "react";
 
-interface ProductQuantityT {
-    currentQuantity: number;
-}
-
-export const ProductQuantity = ({currentQuantity = 1}: ProductQuantityT) => {
+export const ProductQuantity = ({ currentQuantity = 1 }: ProductQuantityT) => {
     const [quantity, setQuantity] = useState(currentQuantity);
     const increment = () => setQuantity((prevState) => prevState + 1);
-    const decrement = () => setQuantity((prevState) => prevState - 1);
+    const decrement = () => setQuantity((prevState) => prevState > 0 ? prevState - 1 : 0);
     return (
         <div
             className="p-2 bg-gray-50 rounded-md border border border border justify-start items-center gap-3 flex select-none">

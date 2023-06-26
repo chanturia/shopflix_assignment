@@ -1,10 +1,6 @@
 import {FC} from "react";
 
-interface CalendarIconProps {
-    className?: string;
-}
-
-export const StarIHalfIcon: FC<CalendarIconProps> = (props) => {
+export const StarIHalfIcon: FC<SvgIconPropsT> = (props) => {
     return (
         <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg" fill="black" {...props}>
             <g id="star-half">

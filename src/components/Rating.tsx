@@ -1,8 +1,6 @@
 import StarIHalfIcon from "@/SVG/StarIHalfIcon";
 import StarIcon from "@/SVG/StarIcon";
 
-
-
 export const CarbonOffsetCheckBox = () => {
     return (
         <div className="justify-start items-center gap-0.5 flex">

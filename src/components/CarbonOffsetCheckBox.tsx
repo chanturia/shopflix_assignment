@@ -7,7 +7,7 @@ export const CarbonOffsetCheckBox = () => {
     const [isChecked, setIsChecked] = useState(false);
     return (
         <div
-            className={`self-stretch px-2.5 py-[11.50px] bg-neutral-50 gradient-green ${isChecked && "gradient-green-active"} rounded-lg border border border border border-zinc-300 justify-between items-center gap-2 inline-flex`}>
+            className={`w-full px-2.5 py-[11.50px] bg-neutral-50 gradient-green ${isChecked && "gradient-green-active"} rounded-lg border border border border border-zinc-300 justify-between items-center gap-2 inline-flex`}>
             <div className="justify-start items-center gap-0.5 flex">
                 <div className="justify-start items-center gap-1 flex">
                     <div className="flex justify-center align-middle relative">

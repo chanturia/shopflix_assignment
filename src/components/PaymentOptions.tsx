@@ -4,9 +4,9 @@ import InfoCircleIcon from "@/SVG/InfoCircleIcon";
 
 export const PaymentOptions = () => {
     return (
-        <div className="self-stretch flex-col justify-start items-start gap-2 flex">
+        <div className="w-full flex-col justify-start items-start gap-2 flex">
             <div
-                className="self-stretch p-2 odd:bg-payment-option-list-odd even:bg-payment-option-list-even rounded-lg justify-between items-center gap-1 inline-flex">
+                className="w-full p-2 odd:bg-payment-option-list-odd even:bg-payment-option-list-even rounded-lg justify-between items-center gap-1 inline-flex">
                 <div className="justify-start items-center gap-1.5 flex">
                     <div
                         className="flex items-center justify-center rounded w-[46px] h-[22px] relative bg-white">
@@ -24,7 +24,7 @@ export const PaymentOptions = () => {
                 </div>
             </div>
             <div
-                className="self-stretch p-2 odd:bg-payment-option-list-odd even:bg-payment-option-list-even rounded-lg justify-between items-center gap-1 inline-flex">
+                className="w-full p-2 odd:bg-payment-option-list-odd even:bg-payment-option-list-even rounded-lg justify-between items-center gap-1 inline-flex">
                 <div className="justify-start items-center gap-1.5 flex">
                     <div
                         className="flex items-center justify-center rounded w-[46px] h-[22px] relative bg-white">

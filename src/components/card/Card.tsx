@@ -1,10 +1,4 @@
-import {ReactNode} from "react";
 import CardHeading from "@/components/card/CardHeading";
-
-interface CardT {
-    children: ReactNode;
-    headingText?: string;
-}
 
 export const Card = ({children, headingText}: CardT) => {
     return (

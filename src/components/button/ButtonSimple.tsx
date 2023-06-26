@@ -1,11 +1,5 @@
-import {ReactNode} from "react";
 
-interface ButtonPrimaryT {
-    children: ReactNode
-    text: string
-}
-
-export const ButtonSimple = ({children, text}: ButtonPrimaryT) => {
+export const ButtonSimple = ({children, text}: ButtonComponentT) => {
     return (
         <div className="group cursor-pointer justify-start items-center gap-[5px] flex">
             {children &&

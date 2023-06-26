@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer base {
+    html {
+        font-family: 'Roboto', sans-serif;
+    }
+}
 .gradient-green:hover {
     background: linear-gradient(90deg, rgba(79, 214, 109, 0.20) 0%, rgba(226, 246, 168, 0.20) 100%), #FBFEFA;
 }

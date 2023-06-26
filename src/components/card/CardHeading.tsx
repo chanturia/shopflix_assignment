@@ -1,6 +1,3 @@
-interface CardHeadingT {
-    text: string;
-}
 
 export const CardHeading = ({text}: CardHeadingT) => {
     return (
