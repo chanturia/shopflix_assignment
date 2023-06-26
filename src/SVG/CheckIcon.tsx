@@ -1,4 +1,10 @@
-export const CheckIcon = (props) => {
+import {FC} from "react";
+
+interface CalendarIconProps {
+    className?: string;
+}
+
+export const CheckIcon: FC<CalendarIconProps> = (props) => {
     return (
         <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
             <path id="Vector 1 (Stroke)" fillRule="evenodd" clipRule="evenodd"

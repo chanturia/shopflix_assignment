@@ -1,4 +1,10 @@
-export const ShoppingCartIcon = (props) => {
+import {FC} from "react";
+
+interface CalendarIconProps {
+    className?: string;
+}
+
+export const ShoppingCartIcon: FC<CalendarIconProps> = (props) => {
     return (
         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
             <g id="shopping-cart-filled">

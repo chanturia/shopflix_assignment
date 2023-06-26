@@ -1,4 +1,10 @@
-export const LocationPinIcon = (props) => {
+import {FC} from "react";
+
+interface CalendarIconProps {
+    className?: string;
+}
+
+export const LocationPinIcon: FC<CalendarIconProps> = (props) => {
     return (
         <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#5562F3" {...props}>
             <g id="location-pin">
