@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradient-green:hover {
+    background: linear-gradient(90deg, rgba(79, 214, 109, 0.20) 0%, rgba(226, 246, 168, 0.20) 100%), #FBFEFA;
+}
+.gradient-green-active {
+    background: linear-gradient(90deg, rgba(79, 214, 109, 0.20) 0%, rgba(226, 246, 168, 0.20) 100%), #FBFEFA;
+}
